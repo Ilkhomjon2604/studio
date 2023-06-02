@@ -144,22 +144,60 @@ select:-webkit-autofill:focus {
   width: 95%;
   color: #fff;
   background: linear-gradient(0deg, rgba(30, 24, 60, 0.99) 62.3%, rgba(5, 6, 11, 0.99) 93.31%);
+  display: flex;
+  flex-direction: column;
+  gap: 28;
 
 }
 
 .main-head {
   display: flex;
   gap: 32px;
+  justify-content: space-between;
+  align-items: center;
 }
 .main-head-text-wrapper {
+  padding: 60px;
+  background-color: #f8f6f620;
+  width: 60%;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 .main-head-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+  margin-top: 0;
 }
 .text {
+  color: #c5c5c5;
+  font-size: 30px;
+  line-height: 43px;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+span{
+  color: #fff;
+  font-weight: 400;
 }
 .statistic {
+  padding: 40px 70px;
+  position: relative;
+  background-color: #f8f6f620;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 .dots {
+  
+  position: absolute;
+  top: 10px;
+  left: 20px;
 }
 
 
