@@ -155,11 +155,13 @@ select:-webkit-autofill:focus {
   gap: 32px;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 28px;
 }
 .main-head-text-wrapper {
+ 
   padding: 60px;
   background-color: #f8f6f620;
-  width: 60%;
+  width: 65%;
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -200,6 +202,211 @@ span{
   left: 20px;
 }
 
+/* MAIN BODY STYLES  */
+
+.main-body {
+  display:  flex;
+  row-gap: 10px;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0;
+
+}
+.body-content-wrapper {
+  background-color: #fff;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  gap: 8px;
+  flex-shrink: 0;
+
+}
+
+.body-content-wrapper:not(:last-child) {
+ padding: 25px 22px;
+  
+}
+
+.one{
+  background-color: #ffffff00;
+  padding: 0 !important;
+  width: 440px;
+
+}
+.second{
+  width: 440px;
+  margin-left: -30px;
+ 
+}
+
+.third{
+  width: 440px;
+}
+
+.reviews {
+  background-color: #fff;
+
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+  padding: 22px;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px; 
+}
+.review-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  margin-bottom: 17px;
+  color: #000;
+  text-align: center;
+  margin: 0 ;
+  margin-bottom: 10px;
+}
+.review {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 12px;
+  background-color: #f6f6f6;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.reviewer-name {
+  font-size: 10px;
+  line-height: 15px;
+}
+.name {
+  margin: 0;
+  color: #000;
+  font-size: 12px;
+}
+.time {
+  margin: 0;
+  font-size: 8px;
+  line-height: 13px;
+  color: #7d7d7d;
+}
+.reviewer-btn {
+  font-size: 8px;
+  line-height: 13px;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  padding: 6px 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.pink{
+  background-color: #FE5B81;
+  cursor: pointer;
+}
+.btn-review {
+  font-size: 8px;
+  padding: 8px 45px;
+  margin-top: 10px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  cursor: pointer;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-items: center;
+  width: 400px;
+}
+.call {
+  padding: 20px 0 ;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: #000;
+  text-align: center;
+  width: 45%;
+}
+.special {
+  color: #4D61F6;
+  font-size: 15px;
+  align-self: center;
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  padding:3px 27px;
+  border: none;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  cursor: pointer;
+  font-size: 8px;
+  line-height: 13px;
+}
+.btn-success {
+  background-color: blue;
+  color: #fff;
+  flex-shrink: 0;
+  margin-left: 5px;
+}
+.call-btn{
+  margin-top:15px
+}
+.manager {
+  background-color: #fff;
+  padding: 20px ;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.manager-margin{
+  margin: 10px 0;
+}
+.document-wrapper {
+}
+.btn-green {
+  background-color: green;
+  color: #fff;
+}
 
 
 
